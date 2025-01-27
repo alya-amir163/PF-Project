@@ -14,52 +14,52 @@ This dataset was obtained from Kaggle, a platform for data science and machine l
 
 **The dataset contains information about fictional heroes and includes the following columns:**
 
-Unnamed: 0: Index column (likely redundant).
-name: The name of the hero.
-Gender: Gender of the hero.
-Eye color: Eye color of the hero.
-Race: Race or species of the hero.
-Hair color: Hair color of the hero.
-Height: Height of the hero (in unspecified units).
-Publisher: The publisher of the hero (e.g., Marvel, DC).
-Skin color: Skin color of the hero.
-Alignment: Whether the hero is "good," "bad," or "neutral."
-Weight: Weight of the hero (in unspecified units).
+- Unnamed: 0: Index column (likely redundant).
+- name: The name of the hero.
+- Gender: Gender of the hero.
+- Eye color: Eye color of the hero.
+- Race: Race or species of the hero.
+- Hair color: Hair color of the hero.
+- Height: Height of the hero (in unspecified units).
+- Publisher: The publisher of the hero (e.g., Marvel, DC).
+- Skin color: Skin color of the hero.
+- Alignment: Whether the hero is "good," "bad," or "neutral."
+- Weight: Weight of the hero (in unspecified units).
 
 It includes 734 entries, though some columns like "Publisher" and "Weight" have missing values.
 
 **Project Objectives**
 
-Clean and preprocess the dataset (e.g., handle missing values, replace invalid placeholders like -99).
-Derive statistical summaries such as mean, median, and mode for critical variables.
-Visualize trends in data using graphs such as bar charts, histograms, and pie charts.
-Group and analyze specific attributes (e.g., by alignment or publisher) for deeper insights.
+- Clean and preprocess the dataset (e.g., handle missing values, replace invalid placeholders like -99).
+- Derive statistical summaries such as mean, median, and mode for critical variables.
+- Visualize trends in data using graphs such as bar charts, histograms, and pie charts.
+- Group and analyze specific attributes (e.g., by alignment or publisher) for deeper insights.
 
 **Key Insights and Methodology**
 
 **Data Preprocessing:**
 
-Missing values in columns like "Publisher" and "Weight" were handled appropriately.
-Placeholder values (-99) in "Height" and "Weight" were replaced with NaN and analyzed separately.
-Standardized categorical values for consistency in analysis.
+- Missing values in columns like "Publisher" and "Weight" were handled appropriately.
+- Placeholder values (-99) in "Height" and "Weight" were replaced with NaN and analyzed separately.
+- Standardized categorical values for consistency in analysis.
 
 **Key Findings:**
 
-Mean height: X units (after cleaning).
-Alignment distribution: Good > Bad > Neutral.
-Publisher representation: Marvel > DC > Others.
-Potential Advancements
-Build predictive models to classify superheroes based on alignment or publisher.
-Explore advanced visualizations such as heatmaps and interactive dashboards.
-Incorporate additional data sources for enriched analysis of superhero universes.
+- Mean height: X units (after cleaning).
+- Alignment distribution: Good > Bad > Neutral.
+- Publisher representation: Marvel > DC > Others.
+- Potential Advancements
+- Build predictive models to classify superheroes based on alignment or publisher.
+- Explore advanced visualizations such as heatmaps and interactive dashboards.
+-Incorporate additional data sources for enriched analysis of superhero universes.
 
 **Graphical Analysis and Conclusion**
 
 Through graphical analysis, the following insights were drawn:
-Alignment Distribution: Bar charts revealed that the majority of superheroes are aligned as "good," followed by "bad" and then "neutral."
-Gender Representation: Pie charts showed a higher proportion of male superheroes compared to females, with some heroes classified as genderless or unknown.
-Publisher Dominance: A comparison of publishers using bar charts highlighted that Marvel has a larger number of superheroes compared to DC and other publishers.
-Race Distribution: Histograms indicated that humans are the most common race, followed by aliens and other cosmic beings.
+- Alignment Distribution: Bar charts revealed that the majority of superheroes are aligned as "good," followed by "bad" and then "neutral."
+- Gender Representation: Pie charts showed a higher proportion of male superheroes compared to females, with some heroes classified as genderless or unknown.
+- Publisher Dominance: A comparison of publishers using bar charts highlighted that Marvel has a larger number of superheroes compared to DC and other publishers.
+- Race Distribution: Histograms indicated that humans are the most common race, followed by aliens and other cosmic beings.
 
 **Conclusion**
 
